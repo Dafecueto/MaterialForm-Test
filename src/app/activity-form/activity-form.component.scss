@@ -1,20 +1,9 @@
-
-.example-container{
-    text-align: center
-}
-
-.form-container{
+.container {
     display: flex;
-    flex-direction: column;
-    width: 400 px; 
-    margin: 0 px auto; 
-    margin-top: 200 px
+    justify-content: center;
 }
 
-.form-field{
-    display: inline-block;
-}
-
-input {
-    padding: 20px;
+.save-button {
+    display: flex;
+    justify-content: center;
 }
